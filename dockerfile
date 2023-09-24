@@ -15,4 +15,4 @@ RUN mkdir /configs
 EXPOSE 6001 6002 8388-8390
 
 # Run Shadowsocks and Shadowsocks Manager
-CMD ["sh", "-c", "ss-manager -m aes-256-gcm -u --manager-address 127.0.0.1:6001 & ssmgr -c /configs/ssmgr.yml"]
+CMD ["sh", "-c", "ss-manager -m aes-256-gcm -u --manager-address 127.0.0.1:6001 & ssmgr -c /.ssmgr/default.yml"]
