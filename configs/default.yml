@@ -12,3 +12,10 @@ plugins:
     use: true
   account:
     use: true
+db:
+  host: ''
+  port: ''
+  username: ''
+  password: ''
+  database: '/root/sqlite.db'
+  dialect: 'sqlite'
