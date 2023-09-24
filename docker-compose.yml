@@ -3,7 +3,7 @@ services:
   ssmgr:
     build: .
     volumes:
-      - ./configs:/configs
+      - ./configs:./configs
     ports:
       - "6001:6001"
       - "6002:6002"
