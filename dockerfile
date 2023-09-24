@@ -11,10 +11,6 @@ RUN npm i -g shadowsocks-manager --unsafe-perm
 # Create directory for configuration files
 RUN mkdir /configs
 
-# Add configuration files
-ADD ./ss-config.json /configs/ss-config.json
-ADD ./ssmgr.yml /configs/ssmgr.yml
-
 # Expose necessary ports (6001 for ss-manager, 6002 for ssmgr, 8388-8390 for Shadowsocks)
 EXPOSE 6001 6002 8388-8390
 
