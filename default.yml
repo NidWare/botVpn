@@ -1,0 +1,14 @@
+type: s
+empty: false
+shadowsocks:
+  address: 127.0.0.1:6001
+manager:
+  address: 0.0.0.0:6002
+  password: 'manager_password'
+plugins:
+  flowSaver:
+    use: true
+  user:
+    use: true
+  account:
+    use: true

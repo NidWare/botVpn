@@ -9,7 +9,7 @@ RUN apt-get update && \
 RUN npm i -g shadowsocks-manager --unsafe-perm
 
 # Create directory for configuration files
-RUN mkdir /configs
+RUN mkdir /.ssmgr
 
 # Expose necessary ports (6001 for ss-manager, 6002 for ssmgr, 8388-8390 for Shadowsocks)
 EXPOSE 6001 6002 8388-8390
