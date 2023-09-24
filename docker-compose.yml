@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ssmgr:
+    build: .
+    volumes:
+      - ./configs:/configs
+    ports:
+      - "6001:6001"
+      - "6002:6002"
+      - "8388-8390:8388-8390"
