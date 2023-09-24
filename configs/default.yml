@@ -13,5 +13,5 @@ plugins:
   account:
     use: true
 db:
-  database: '/root/sqlite.db'
+  database: '/root/.ssmgr/sqlite.db'
   dialect: 'sqlite'
